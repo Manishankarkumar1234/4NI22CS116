@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif; /* Consistent font */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* background-color will be handled by ThemeProvider and CssBaseline */
+}
+
+/* Remove the explicit background-color here if CssBaseline is handling it based on the theme */
+/*
+body {
+  background-color: #121212; 
+}
+*/
+
+/* Optional: Add a subtle global link style if needed, though MUI Link component is preferred */
+a {
+  color: inherit; /* Or use theme.palette.primary.main */
+  text-decoration: none;
+}
